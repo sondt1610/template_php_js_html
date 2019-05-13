@@ -3,8 +3,17 @@ body{
     font-size: 16px;
     background-color: #B3BBCA;
 }
+#slogan{
+    position: absolute;
+    top: 45px;
+    left: 430px;
+    height: 80px; 
+}
 ol, ul{
     list-style: none;
+}
+header{
+    background-color: white;
 }
 #wrap{
     background-color:#ffffff;
@@ -16,11 +25,11 @@ ol, ul{
     background-image: url('inner-wrap_bg.png');
     background-repeat: repeat-x;
 }
-#mainnav{
+nav{
     background-color:#60668B;
     height: 35px;
 }
-#mainnav li{
+nav li{
     float: left;
     width: 120px;
     height: 35px;
@@ -31,15 +40,15 @@ ol, ul{
     border-right: 1px solid #000;
     
 } 
-#mainnav a{
+nav a{
     text-decoration: none;
     color: white;
 }
-#sidebar{
+aside{
     float: left;
     width: 300px;
 }
-#main{
+article{
     float: right;
     width: 600px;
 }
@@ -49,10 +58,10 @@ ol, ul{
     display: block;
     height: 0;
 }
-#mainnav a:hover {
+nav a:hover {
     color: #F1E2B9;
 }
-#footer{
+footer{
     background-image: url('footer_background.jpg');
     background-repeat: no-repeat;
     width: 960px;
