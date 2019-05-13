@@ -1,0 +1,11 @@
+body{
+	color: red;
+	font-size: 30px;
+}
+@media screen and (max-width: 700px)
+{
+	body{
+		color: blue;
+		font-size: 30px;
+	}
+}
