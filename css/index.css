@@ -13,6 +13,31 @@ p{
     margin: 5px 0;
     line-height: 25px;  
 }
+input{
+    background-color: #EBE8DE;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+input[type=submit], .button{
+    width: auto;
+    line-height: 25px;
+    background-color: #333333;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 5px 18px;
+    
+}
+.clear{
+    clear: both;
+}
 /* HEADER */
 header{
     position: relative;
@@ -64,7 +89,7 @@ nav>ul>li:hover>a{
 }
 #slider_content{
     position: absolute;
-    top: 15%;
+    top: 7%;
     left: 15%;
     font-family: 'Open Sans', sans-serif;
     opacity: 0.6;
@@ -140,4 +165,55 @@ div#slider figure img{
     100% {
         left: -400%;
     }
+}
+/* SPACER */
+#spacer{
+    width: auto;
+    background-color: #e56038;
+    height: 70px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+#spacer p{
+    position: absolute;
+    left: 50%;
+    width: auto;
+    margin-left: -450px;
+    margin-top: 22px;
+}
+#spacer .search{
+    position: absolute;
+    right: 50%;
+    width: auto;
+    margin-right: -480px;
+    margin-top: 15px;
+}
+/* 3 COLUMNS */
+#three_columns{
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 0 45px 0;
+}
+#three_columns article{
+    float: left;
+    font-size: 14px;
+    width: 250px;
+    margin-right: 45px;
+}
+#three_columns article image{
+    float: left;
+}
+#three_columns article h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+#three_columns article p {
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 75px;
 }
