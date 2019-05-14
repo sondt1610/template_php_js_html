@@ -1,0 +1,143 @@
+/* GLOBAL */
+body{
+    border-top: 5px solid #e56038;
+    background: #ebe8de;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    margin: 5px 0;
+    line-height: 25px;  
+}
+/* HEADER */
+header{
+    position: relative;
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+header h1{
+    color: #e56038;
+    font-family: 'Baumans';
+    font-size: 55px;
+    margin: 35px 0 0 0;
+}
+header p{
+    color: #4A463B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}
+/* NAV */
+nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 50px 20px;
+}
+nav>ul>li{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 70px;
+}
+nav>ul>li>a{
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+nav>ul>li:hover>a{
+    color: #777;
+}
+/* SLIDER */
+.container{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+#slider_content{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    width: auto;
+    max-width: 350px;
+    z-index: 11;
+    
+}
+#slider_content h3{
+    color: #EBE8DE;
+    background-color: #333333;
+    border-radius: 15px 0 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+#slider_content p{
+    margin: 0 0 30px 0;
+    color: #4a463b;
+    background-color: #EBE8DE;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#slider_content>a{
+    color: #EBE8DE;
+    background-color: #333333;
+    padding: 5px 18px;
+    line-height: 25px;
+}
+div#slider{
+    overflow: hidden;
+}
+div#slider figure{
+    margin: 0;
+    text-align: left;
+    left: 0;
+    width: 500%;
+    position: relative; 
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+div#slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    } 
+    45% {
+        left: -100%;
+    }    
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
