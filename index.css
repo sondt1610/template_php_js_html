@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
+    background-color: gray;
+}
+#wrap{
+    width: 960px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#masterhead img{
+    /* float: left; */
+}
+
+#masterhead #slogan{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+#masterhead #slogan h1{
+    font-size: 25px;
+}
+#mainnav ul li a{
+    color: white;
+}
+#mainnav ul li{
+    list-style: none;
+    float: left;
+    /* margin-right: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    line-height: 40px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#mainnav{
+    background-color: #60668B;
+    height: 40px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+#mainnav::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+#innerwrap{
+    background: url('./images/inner-wrap_bg.png');
+    background-repeat: repeat-x;
+}
+#sidebar{
+    float: left;
+    width: 360px;
+    
+}
+#innerwrap::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+#main{
+    float: right;
+    width: 600px;
+}
+#sidebar h2{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 20px;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+}
+#sidebar h3{
+    font-size: 16px;
+    margin: 20px;
+}
+#sidebar ul li{
+    line-height: 25px;
+}
+#main h1{
+    margin: 20px;
+}
+#main p{
+    line-height: 25px;
+    margin: 20px;
+}
+#bioclass{
+    margin: 20px;
+}
+table {
+    margin: 0 auto;
+    border-color: #efefef;
+}
+#footer{
+    background-image: url('./images/footer_background.jpg');
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 118px;
+    padding-top: 20px;
+}
