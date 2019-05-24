@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slide .layer1{
+    max-width: 600px;
+    max-height: 400px;
+}
+.slide .layer2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    /* padding: 20px; */
+    width: 1500px;
+}
+.tren{
+    width: 600px;
+}
