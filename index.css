@@ -16,94 +16,194 @@
     font-family: lato-b;
 }
 
-body{
-    /* background: gray; */
-}
-.top1{
-    width: 100%;
-    height: 900px;
-    display: block;
-    background: url('./images/bg.jpg');
-    background-size: cover;
-}
-.top1 h1{
-    font-size: 22px;
-    padding-top: 35%;
-}
-.top1 p{
-    font-size: 13px;
-}
-.top1 a.btn.btn-default{
-    border: none;
-    border-radius: 0px;
-    background: rgba(0,0,0,0.4);
-    color: white;
-    font-size: 12px;
-}
-.top1 a.btn.btn-default:hover{
-    background: rgba(0,0,0,0.75);
-   
-}
-.top2 h2{
-    font-size: 21px;
-
-}
-.top2 p{
-    font-size: 14px;
-}
-.top3{
-    color: white;
-    background: #337ab7;
-}
-hr.vienduoi{
-    width: 20%;
-    margin: auto;
-}
-.top4.anhnen{
-    background: url('./images/callout.jpg');
-    height:200px;
-    padding: 40px 0;
-    background-size: cover;
-    color: white;
-}
-.top5 img.img-fluid{
-    margin-bottom: 22px;
-}
-.nutmenu{
-    position: fixed;
-    top: 6px;
-    right: 14px;
-    padding: 10px 15px;
-    background: #000000a8;
-}
-.nutmenu .fa.fa-bars{
-    color: white;
-    font-size: 17px; 
-}
-.menuphai{
-    background: black;
-    position: fixed;
-    right: -300px;
-    top: 0px;
-    width: 248px;
-    height: 900px;
-    z-index: 3;
-    color: white;
-    transition: all 0.4s;  
+nav.navbar.navbar-expand-sm.navbar-light.bg-light{
+    background: #2c3e50 !important;
+    height: 111px;
     
 }
-.menuphai.ra{
-    right: 0px;
+.navbar-light .navbar-brand {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 2em;
+    transition: all .3s;
+    font-weight: 900;
 }
-ul.menudoc{
-    list-style: none;
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    line-height: 21px;
+    font-weight: bold;
 }
-.menudoc a{
-    color: white;
-    padding: 10px 10px;
+.menutren.navbar-light .navbar-nav .nav-link:hover {
+    color: #18bc9c !important;
+}
+.nav>li>a {
+    position: relative;
     display: block;
+    padding: 10px 15px;
+}
+.nenxanh{
+    background: #18bc9c;
+    padding: 90px 0 113px 0;
+}
+.nenxanh h1{
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+}
+.ngoisao{
+    width: 23%;
+    margin: auto;
+    border-top: 5px solid white;
+    margin-top: 39px;
+}
+.ngoisao i{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -25px;
+    line-height: 40px;
+    background: #18bc9c;
+    font-size: 33px;
+    color: white;
+}
+.nenxanh p{
+    font-size: 18px;
+    color: white;
+}
+.portfolio{
+    padding-top: 110px;
+}
+.portfolio h2, .contactme h2{
+    font-size: 44px;
+    color: #2c3e50;
+}
+.portfolio .ngoisao, .contactme .ngoisao{
+    border-color: black;
+}
+.portfolio .ngoisao i, .contactme .ngoisao i{
+    color: black;
+    background: white;
+}
+.sanpham{
+    position: relative;
+    margin-bottom: 21px;
+}
+.sanpham:hover .phongto{
+    opacity: 1;
+}
+.phongto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: #18bc9c;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.fa-search-plus{
+    position: relative;
+    top: 50%;
+    margin-top: -33px;
+    font-size: 66px;
+    color: white;
+}
+.about{
+    background: #18bc9c;
+    color: white;
+    padding-top: 110px;
+    padding-bottom: 70px;
+
+}
+.about h2{
+    font-size: 3em;
+
+}
+.nutdown{
+    background: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 22px;
+
+}
+.contactme{
+    padding-top: 100px;
+
+}
+input.form-control{
+    border: 0px solid; 
     border-bottom: 1px solid gray;
+    padding: 10px 5px;
+    display: block;
+    color: gray;
+    border-radius: 0;
+    font-size: 20px;
+}
+.contactme textarea{
+    font-size: 20px;
+    color: gray;
+    padding: 10px 5px;
+    border: none;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid gray;
+}
+.sendbutton{
+    padding: 22px 22px;
+    background: #18bc9c;
+    border: 1px solid #18bc9c;
+
+} 
+.footer1{
+    background: #2c3e50;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.footer1 h3{
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.footer1 p{
+    font-size: 16px;
+
+}
+.footer1 li{
+    display: inline;
+    list-style: none;
+
+}
+.footer1 li a{
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 9px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.footer1 ul{
+    display: inline;
+}
+.footer2{
+    background: #233140;
+    padding: 13px;
+    color: white;
+}
+.footer2 p{
     font-size: 12px;
+    padding-top: 8px;
+}
+.footer1 li a:hover{
+    background: white;
+    color: #18bc9c;
 }
 @media (max-width:576px){
     
